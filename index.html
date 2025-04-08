@@ -1,0 +1,36 @@
+<!-- index.html (Landing Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Education Girraween - Student Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>CS Education Girraween / Toongabbie</h1>
+    </header>
+
+    <div class="container">
+        <h2>Student Resources</h2>
+        <div id="verification-form">
+            <p>Please answer the following question to access the notes:</p>
+            <h3>Who is the Selective teacher at CS Education Girraween?</h3>
+            <input type="text" id="answer-input" placeholder="Enter your answer">
+            <button onclick="verifyAnswer()">Submit</button>
+            <p id="error-message" class="hidden">Incorrect answer. Please try again.</p>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p><strong>CS Education Girraween / Toongabbie</strong> </p>
+            <p><strong>Address:</strong> Shop 3/6 Junia Ave, Toongabbie NSW 2146</p>
+            <p><strong>Phone:</strong> 0469 872 857</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
